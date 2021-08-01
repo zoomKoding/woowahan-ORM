@@ -1,6 +1,6 @@
 {
   "name": "woowahan-orm",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A very light promise-based Node.js ORM for MySQL",
   "main": "src/index.js",
   "repository": "https://github.com/zoomkoding/woowahan-orm",

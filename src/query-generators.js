@@ -64,7 +64,7 @@ exports.generateCreateQueryStmt = (tableName, input) => `
 
 exports.generateUpdateQueryStmt = (tableName, input) =>
   `
-  UPDATE ${this.name}
+  UPDATE ${tableName}
   SET ${Object.entries(input)
     .map((o) => `\`${o[0]}\`=${o[1]}`)
     .join(", ")}
